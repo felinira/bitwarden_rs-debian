@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=bitwarden
-ExecStart=/usr/local/bin/bitwarden_rs
+ExecStart=/usr/bin/bitwarden_rs
 PrivateTmp=true
 PrivateDevices=true
 ProtectHome=true
